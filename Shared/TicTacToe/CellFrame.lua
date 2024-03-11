@@ -224,17 +224,24 @@ function CellFrame:render()
                 Name = "Corner",
                 CornerRadius = UDim.new(0, 5),
             }),
+
+            UIAspectContrainant = react.createElement("UIAspectRatioConstraint", {
+                Name = "Scaler"
+            }),
     
             GridLayout = react.createElement("UIGridLayout", {
                 Name = "GridLayout",
-                CellPadding = UDim2.new(0, 3, 0, 3),
+                CellPadding = UDim2.new(0, 5, 0, 5),
                 HorizontalAlignment = Enum.HorizontalAlignment.Center,
                 VerticalAlignment = Enum.VerticalAlignment.Center,
             }),
 
             ChildCells = react.createFragment(self.state.Cells)
-        })
+        }),
 
+        UIAspectContrainant = react.createElement("UIAspectRatioConstraint", {
+            Name = "Scaler"
+        }),
 
     })
 end

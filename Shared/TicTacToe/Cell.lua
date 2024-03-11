@@ -35,7 +35,7 @@ function CellComponent:render()
       UICorner = react.createElement("UICorner", {
         Name = "Corner",
         CornerRadius = UDim.new(0, 2),
-      })
+      }),
     })
 end
 

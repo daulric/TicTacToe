@@ -21,7 +21,10 @@
       }
     },
     "controllers": {
-      "$path": "controllers/default.project.json"
+      "$path": "controllers/default.project.json",
+      "symbol": {
+        "$path": "addons/symbol/default.project.json"
+      }
     },
     "db": {
       "$path": "db/default.project.json",
@@ -37,6 +40,9 @@
       "freeze": {
         "$path": "addons/freeze/default.project.json"
       },
+      "symbol": {
+        "$path": "addons/symbol/default.project.json"
+      },
       "tidy": {
         "$path": "addons/tidy/default.project.json"
       }
@@ -48,6 +54,9 @@
       },
       "rednet": {
         "$path": "rednet/default.project.json"
+      },
+      "symbol": {
+        "$path": "addons/symbol/default.project.json"
       }
     },
     "rednet": {
